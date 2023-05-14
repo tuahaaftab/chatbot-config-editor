@@ -1,0 +1,161 @@
+.config-page {
+  background-color: #282c34;
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  color: white
+}
+
+
+.config-editor {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #060101;
+  border-radius: 5px;
+
+  min-height: 50vh;
+  min-width: 90%;
+
+  color: rgb(13, 3, 3);
+
+  display: flex;
+}
+
+
+.config-container {
+  margin: 20px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+
+  /* background-color: #ffffff; */
+  
+  flex: 1;
+}
+
+
+.config-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.config-container li {
+  margin-bottom: 10px;
+}
+
+.config-container p {
+  margin: 0;
+}
+
+
+
+.config-header {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  align-items: center;
+
+  background-color: #f1eb9b;
+}
+
+
+.config-action {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: left;
+
+  background-color: #91eaeb; 
+}
+
+
+.config-page-header {
+  min-height: 10%;
+}
+
+
+.change-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  
+  flex: 1;
+}
+
+.inside-change-container {
+  align-items: center;
+}
+
+
+.add-action,
+.update-action,
+.delete-action{
+  margin: 20px;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.add-action {
+  background-color: #7cf1af;
+}
+
+
+.update-action {
+  background-color: #eb97e5;
+}
+
+.delete-action {
+
+  background-color: #e27777;
+}
+
+
+.button-style {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+
+  background-color: #008CBA;
+}
+
+
+
+.error-box {
+  background-color: #ff4136;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ff4136;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.select-dropdown {
+    width: 150px;
+    height: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #6196c4;
+    font-weight: bold;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}

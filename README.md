@@ -1,3 +1,22 @@
+# Chatbot Application - Config Editor
+
+(1) Input files to be placed under:
+    src/components/input_configs/starter_config.json
+
+(2) Output will be to the console
+
+
+# To run the project
+cd chatbot_react_app
+npm install  
+npm run start
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
